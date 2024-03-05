@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EjemploComponent } from './containers/ejemplo/ejemplo.component';
+import { EjemploCliComponent } from './containers/ejemplo-cli/ejemplo-cli.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EjemploComponent,
+    EjemploCliComponent
   ],
   imports: [
     BrowserModule,
